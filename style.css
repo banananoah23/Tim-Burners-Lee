@@ -1,0 +1,119 @@
+body {
+    text-align: center;
+    padding-top: 700px;
+    margin: 0;
+    background: linear-gradient(#cfc815 0%, #8a1111 100%);
+
+}
+
+img {
+    width: 200px;
+    border-style: groove;
+    border-bottom-color: goldenrod;
+    border-top-color: goldenrod;
+    border-left-color: darkred;
+    border-right-color: darkred;
+    border-width: 10px;
+    padding: 5px;
+    margin-top: 90px;
+
+}
+
+#home {
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 9;
+
+
+}
+
+#aboutme {
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 500px;
+
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Play', sans-serif;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.line {
+    background-color: darkgoldenrod;
+    height: 6px;
+    width: 90px;
+    margin: 8px auto;
+
+}
+
+p {
+    max-width: 600px;
+    margin: 25px auto;
+    font-size: 25px;
+}
+
+#menu {
+    list-style: none;
+    position: fixed;
+    top: 5px;
+    z-index: 10;
+    right: 30px;
+    cursor: pointer;
+}
+
+.item {
+    float: left;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 30px;
+}
+
+.item:hover {
+    background: linear-gradient(#cfc815 0%, #8a1111 100%);
+
+}
+
+#myvideos {
+    margin-top: 500px;
+}
+
+#mywork {
+    margin-top: 500px;
+}
+
+#mywritings {
+    font-size: 30px;
+    margin-top: 500px;
+}
+
+#mywritings img {
+
+    width: 650px;
+}
+
+a {
+    text-decoration-style: wavy;
+}
+
+
+
+#contactme iframe {
+    width: 100%;
+
+}
+
+#contactme {
+    margin-top: 500px;
+}
